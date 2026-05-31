@@ -34,7 +34,7 @@ namespace Orbit
             pix_board.Cursor = Cursors.Hand;
 
             UpdateStatus();
-            RefreshStacks();
+            deleteFromStack();
         }
 
         // ─── Theme ────────────────────────────────────────────────────────────
